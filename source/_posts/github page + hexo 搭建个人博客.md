@@ -41,6 +41,10 @@
 `配置到博客仓库目录去，不是源码仓库`
 ![hexo_config](../image/hexo_config.png)
 
+`提交到另一项目用下面这种方式`
+
+![hexo_config](../image/hexo_config2.png)
+
  - repo 自己的博客路径
  - branch 博客的分支，由于github限制必须在master，所以不能改
 ## 提交
