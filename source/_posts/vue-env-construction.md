@@ -29,5 +29,8 @@ v2.x: `npm run dev`
 v3.x: `npm run serve`
 # VUE调试工具
 [https://github.com/vuejs/vue-devtools](https://github.com/vuejs/vue-devtools)
-![vue_tool](../image/vue_tool.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3RlZF9za3k=,size_16,color_FFFFFF,t_70)
-![vue_tool2](../image/vue_tool2.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3RlZF9za3k=,size_16,color_FFFFFF,t_70)
+
+ {% img /image/vue_tool.png "vue_tool" %}
+
+ {% img /image/vue_tool2.png "vue_tool2" %}
+
