@@ -77,3 +77,14 @@ HEXO官网： https://hexo.io/
 {% img /image/hexo_commit.png "hexo_commit" %}
 
 {% img /image/hexo_commit2.png "hexo_commit2" %}
+
+# 模板修改
+## header图标
+
+修改主题内的config，配置中的路径是相对于source目录的路径
+
+{% img /image/hexo_ico.png "hexo_ico" %}
+
+## 标题与作者
+
+{% img /image/hexo_name.png "hexo_name" %}

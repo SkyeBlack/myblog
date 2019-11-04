@@ -23,10 +23,10 @@ $ ssh-keygen -t rsa -C "youremail@youremail.com"
 
   {% img /image/git_prikey.png "git_prikey" %}
 # 添加配置
-{% img /image/git-setting.png "git-setting" %}
-{% img /image/git-setting2.png "git-setting2" %}
+{% img /image/git_setting.png "git-setting" %}
+{% img /image/git_setting2.png "git-setting2" %}
 
-{% img /image/git-setting3.png "git-setting3" %}
+{% img /image/git_setting3.png "git-setting3" %}
 
 复制.pub的`所有内容`到key并保存
 
@@ -49,30 +49,30 @@ $ git config --global user.email "your_email@youremail.com"
 出现有注释的界面（你的注释应该显示在第一行）， 输入`i`进入修改模式，修改好注释后，按`Esc`键 退出编辑模式，输入`:wq`保存并退出。ok，修改完成。
 ## 修改之前的某次注释
  1. 输入：
-  `git rebase -i HEAD~2`
-  最后的数字`2`指的是显示到倒数第几次，比如这个输入的2就会显示倒数的两次注释（最上面两行）
-  {% img /image/git_rebase.png "git_rebase" %}
+    `git rebase -i HEAD~2`
+    最后的数字`2`指的是显示到倒数第几次，比如这个输入的2就会显示倒数的两次注释（最上面两行）
+    {% img /image/git_rebase.png "git_rebase" %}
 
  2. 修改状态
-  将要修改的注释前面的`pick`换成`edit`。
-  方法就是上面说的编辑方式：`i`---编辑，把`pick`换成`edit`---`Esc`---`:wq`.
+    将要修改的注释前面的`pick`换成`edit`。
+    方法就是上面说的编辑方式：`i`---编辑，把`pick`换成`edit`---`Esc`---`:wq`.
 
 3. 修改注释：
-  `git commit --amend`
-  {% img /image/git_amend.png "git_amend" %}
-  `i`---编辑，修改好后`Esc`---`:wq`.
+    `git commit --amend`
+    {% img /image/git_amend.png "git_amend" %}
+    `i`---编辑，修改好后`Esc`---`:wq`.
 
 4. 继续修改：
-  `git rebase --continue`
-  {% img /image/git_rebase2.png "git_rebase2" %}
+    `git rebase --continue`
+    {% img /image/git_rebase2.png "git_rebase2" %}
 
 5. 跳过修改：
-  `git rebase --skip`
-  {% img /image/git_skip.png "git_skip" %}
+    `git rebase --skip`
+    {% img /image/git_skip.png "git_skip" %}
 
   {% img /image/git_skip2.png "git_skip2" %}
 
 6. 修改完成
-  `git pull`
-  `git push`
+    `git pull`
+    `git push`
 
