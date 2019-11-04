@@ -75,4 +75,5 @@ HEXO官网： https://hexo.io/
 `源码用git提交，但是博客代码不要用github的提交`
 `hexo d -g`
 {% img /image/hexo_commit.png "hexo_commit" %}
-![hexo_commit2](../image/hexo_commit2.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3RlZF9za3k=,size_16,color_FFFFFF,t_70)
+
+{% img /image/hexo_commit2.png "hexo_commi2t" %}
