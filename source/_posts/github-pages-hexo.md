@@ -1,4 +1,9 @@
+---
+title: github pages + hexo 搭建个人博客
+---
+
 # 新建仓库
+
 仓库名一定是  `用户名.github.io`
 ![github_newrepository](../image/github_newrepository.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3RlZF9za3k=,size_16,color_FFFFFF,t_70)
 

@@ -1,4 +1,9 @@
+---
+title: VUE环境搭建
+---
+
 # 安装node.js
+
 下载安装：[https://nodejs.org/zh-cn/](https://nodejs.org/zh-cn/)
 cmd查看版本：`node -v`
 # 更新npm
