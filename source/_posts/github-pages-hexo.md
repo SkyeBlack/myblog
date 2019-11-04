@@ -76,4 +76,4 @@ HEXO官网： https://hexo.io/
 `hexo d -g`
 {% img /image/hexo_commit.png "hexo_commit" %}
 
-{% img /image/hexo_commit2.png "hexo_commi2t" %}
+{% img /image/hexo_commit2.png "hexo_commit2" %}
